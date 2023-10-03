@@ -1,0 +1,51 @@
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.formContainer {
+  padding: 40px;
+  width: 100%;
+}
+
+.sizeDropdown {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.orderButton {
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.totalCost {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.toppingGroup {
+  margin: 20px 0;
+}
+
+.loadingOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 10;
+}
+
+.formContainer {
+  position: relative;
+}

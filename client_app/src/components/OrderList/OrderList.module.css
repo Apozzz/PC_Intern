@@ -1,0 +1,22 @@
+.orderListContainer {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.orderCard {
+    margin-bottom: 30px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+    border-radius: 8px;
+}
+
+.orderCard:hover {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4);
+}
+
+.orderCardHeader {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}

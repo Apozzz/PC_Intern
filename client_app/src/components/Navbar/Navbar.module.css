@@ -1,0 +1,25 @@
+.navbar-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-title {
+  flex-grow: 1;
+}
+
+.navbar-link {
+  text-decoration: none;
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.87);
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #ff4081;
+}
+
+.MuiButton-root:hover {
+  background-color: rgba(255, 64, 129, 0.1);
+}
